@@ -1,0 +1,73 @@
+NOMBRE DEL ESTUDIANTE:
+Cristhofer Franco Molina Cahuana
+
+TÍTULO DEL CASO:
+Análisis del tiempo de servicio de clientes en una farmacia
+
+3. FORMULACIÓN DEL PROBLEMA
+Se desea analizar el tiempo que tarda una farmacia en atender a sus clientes.
+El propósito es describir el comportamiento de esta variable, identificar
+valores atípicos mediante Z-Score y determinar si existen tiempos de atención
+excepcionalmente altos que puedan afectar la atención y la planificación
+del servicio.
+
+4. VARIABLE PRINCIPAL
+Tiempo de servicio por cliente, medido en minutos.
+
+5. SUPUESTOS
+- Los datos corresponden a 30 clientes.
+- Los datos son simulados con fines académicos.
+- Cada observación representa un cliente atendido.
+- La unidad de medida es el minuto.
+- Para detectar valores atípicos se utiliza el criterio |Z| > 3.
+- Los datos representan el comportamiento observado durante el periodo
+  simulado.
+
+6. ESTADÍSTICOS DESCRIPTIVOS
+Número de observaciones: 30
+Media: 5.02 min
+Mediana: 4.55 min
+Desviación estándar muestral: 3.05 min
+Desviación estándar poblacional: 2.99 min
+Mínimo: 2.50 min
+Máximo: 20.00 min
+Rango: 17.50 min
+Primer cuartil (Q1): 3.73 min
+Tercer cuartil (Q3): 5.35 min
+
+7. VALORES ATÍPICOS (OUTLIERS) DETECTADOS CON Z-SCORE
+Criterio utilizado: |Z| > 3.
+
+Cliente 30: 20.00 minutos, Z-Score = 5.00
+
+8. ANÁLISIS DESCRIPTIVO DE LA VARIABLE
+La mayor parte de los tiempos de servicio se encuentra aproximadamente entre
+2.50 y 6.80 minutos. La mediana es de 4.55 minutos, indicando que
+la mitad de las observaciones se encuentra por debajo de este valor y la otra
+mitad por encima.
+
+La media es de 5.02 minutos y es superior a la mediana debido
+principalmente al valor extremo de 20.00 minutos.
+
+9. INTERPRETACIÓN TÉCNICA
+Los resultados muestran que el tiempo habitual de atención de los clientes
+se encuentra en pocos minutos. Sin embargo, se identifica un caso
+excepcional de 20.00 minutos.
+
+Este valor aumenta la media y la desviación estándar del conjunto. Puede
+representar una atención que requirió procedimientos adicionales, una
+consulta más compleja, problemas administrativos u otra situación no
+habitual.
+
+10. CONCLUSIÓN
+Con base en los 30 datos analizados, el tiempo de servicio habitual de la
+farmacia se encuentra alrededor de 4.55 minutos.
+
+El análisis mediante Z-Score permitió identificar 1 valor
+atípico, correspondiente a un tiempo de 20.00 minutos.
+
+Este resultado demuestra que los valores extremos pueden afectar las
+medidas descriptivas, especialmente la media y la desviación estándar.
+Se recomienda investigar la causa de este tiempo excepcional para determinar
+si corresponde a una situación operativa que pueda repetirse.
+
